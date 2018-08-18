@@ -4,11 +4,11 @@ HotNets'16 http://people.csail.mit.edu/hongzi/content/publications/DeepRM-HotNet
 Install prerequisites
 
 ```
-sudo apt-get update
-sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git
-pip install --user Theano
-pip install --user Lasagne==0.1
-sudo apt-get install python-matplotlib
+conda create -n deeprm anaconda python=2.7
+conda activate deeprm
+conda install Theano
+conda install Lasagne==0.1
+pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
 ```
 
 In folder RL, create a data/ folder. 
