@@ -8,6 +8,7 @@ conda create -n deeprm anaconda python=2.7
 conda activate deeprm
 conda install Theano
 conda install Lasagne==0.1
+conda install matplotlib
 pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
 ```
 
